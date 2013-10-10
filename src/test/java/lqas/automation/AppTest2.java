@@ -23,4 +23,11 @@ public class AppTest2 {
 		Assert.assertTrue(b * a == 8);
 	}
 	
+	@Test
+	public void fifthTest(){
+		int a = 2;
+		int b = 4;
+		Assert.assertTrue(b * a * 2 == 16);
+	}
+	
 }
